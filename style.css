@@ -1,0 +1,98 @@
+
+*{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+body{
+   
+    background: url(background.jpg) no-repeat center fixed;
+    background-size: cover;
+
+
+}
+.entirecontainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 10px;
+    border: 4px solid red;
+    width: 400px;
+    height: 450px;
+    border-radius: 40px;
+
+
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.controls{
+    margin: 20px;
+}
+
+.totalContainer{
+    margin: 30px;
+}
+
+.total{
+    margin-top: 15px;
+}
+
+.buttonContainer{
+    margin: 15px;
+}
+
+.splitButton{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.title{
+    margin-bottom: 5px;
+    font-weight: 900;
+    
+}
+ .buttonText{
+    font-size: 30px;
+ }
+
+.splitButton:active{
+    background-color: brown;
+    color: white;
+}
+
+.wrapper:hover{
+    background-color: rgb(229, 199, 159);
+}
+
+.inputContainer {
+    
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  
+#billTotalInput,
+#tipInput, #perPersonTotal{
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    outline: none;
+    padding: none;
+  }
+#perPersonTotal{
+    font-size: 1.5rem;
+  }
+  
