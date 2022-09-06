@@ -96,3 +96,52 @@ body{
     font-size: 1.5rem;
   }
   
+  @media only screen and (max-width: 434px) {
+
+    .wrapper{
+        width: auto;
+        height: auto;
+        border-radius: 40px;
+        margin: 0px;
+    }
+    *{
+        font-size: 15px;
+    }
+
+
+    .container{
+        margin-top: 2px;
+    }
+    
+    .controls{
+        margin: 2px;
+    }
+    
+    .totalContainer{
+        margin-top: 5px;
+    }
+    
+    .total{
+        margin-top: 5px;
+    }
+    
+    .buttonContainer{
+        margin-top: 5px;
+    }
+    
+    .splitButton{
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+    }
+    
+    .title{
+        margin-bottom: 5px;
+        font-weight: 900;
+        
+    }
+     .buttonText{
+        font-size: 18px;
+     }
+
+  }
